@@ -1,0 +1,43 @@
+@media screen and (max-width: 1300px){
+    footer ul{
+        width: 1200px;
+        margin: 9px 50px 9px 50px;
+       
+    }
+footer hr{
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+    margin: 9px 2px 9px 2px;
+}
+.endFooter{
+    padding-bottom: 2000px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Arial";
+    color: #7a8697;
+    padding-left: 50px;
+}
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+    footer ul{
+        padding: 9px 150px 9px 150px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+.endFooter{
+    margin-left: 250px;
+}
+
+
+.container{
+    margin-left: 150px;
+}
+
+
+}
+
+

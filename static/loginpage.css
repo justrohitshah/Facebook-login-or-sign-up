@@ -1,0 +1,283 @@
+*{  margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    flex-direction: column;
+}
+
+
+.container{
+    width: 100px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.topC ,.midC,  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+form{
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 3px 9px 0 rgba(0,0,0,0.2);
+}
+
+
+form input{
+    border: 1px solid #dad6d6;
+    outline-color: #030f1f;
+    font-size: 15px;
+    color:black;
+    width: 370px;
+    padding: 16px;
+    border-radius: 5px;
+    margin: 5px;
+    margin: 2px 0px 10px 15px;
+   
+}
+
+
+.topC{
+    font-family: "facebook letter faces";
+    font-size: 25px;
+    color: hsl(214, 96%, 49%);
+    padding-bottom: 20px;
+}
+
+
+.midC{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+    padding: 25px 0px 25px 0px;
+}
+
+
+.login{
+    background-color: #1877f2;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    width: 370px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: 700;
+    transform: 0.5s;
+}
+
+
+.login:hover{
+    background-color: #4257b2;
+}
+
+
+.forget{
+    margin: 15px 0;
+    text-decoration: none;
+    color: #1877f2;
+    font-family: "Arial";
+    font-size: 14px;
+}
+
+
+.forget:hover{
+    text-decoration: underline;
+}
+
+
+.or{
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    color: rgba(0,0,0,0.5);
+}
+.or::before{
+    content: "";
+    display: block;
+    height: 0.9px;
+    width: 165px;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    background-color: rgba(0,0,0,0.2)
+}
+.or::after{
+    content: "";
+    display: block;
+    height: 0.9px;
+    width: 165px;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    background-color: rgba(0,0,0,0.2)
+}
+
+
+.create{
+    background-color: #42b72a;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    padding: 13px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: 700;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.create :hover{
+    text-decoration: underline;
+}
+
+
+footer{
+    background-color: #ffffff;
+    padding: 15px;
+    padding-top: 60px;
+}
+footer ul{
+    margin: 9px 225px 9px 225px;
+}
+
+
+footer ul li{
+    display: inline;
+}
+
+
+footer hr{
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+    margin: 9px 225px 9px 225px;
+}
+footer ul li{
+    text-decoration: none;
+    padding-inline-end: 7px;
+}
+
+
+footer ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Arial";
+    color: #7a8697;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.top ul li:last-child a{
+    border: 1px solid #dad8d8;
+    background-color: #f0f2f5;
+    border-radius: 2px;
+    padding-left: 9px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: rgb(129, 123, 123);
+    font-size: larger;
+}
+.middle ul li{
+    padding-inline-end: 17px;
+}
+.middle P{
+    font-size: 12px;
+    color: #7a8697;
+    padding-top: 25px;
+}
+
+
+.endFooter{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Arial";
+    color: #7a8697;
+    padding-left: 225px;
+    padding-top: 10px;
+}
+
+
+@media screen and (max-width: 1200px){
+    .endFooter{
+        padding-bottom: 2000px;
+        padding-left: 150px;
+    }
+    footer ul{
+        margin: 9px 150px 9px 150px;
+    }
+    footer hr{
+        margin: 9px 150px 9px 150px;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    footer{
+        width: 900px;
+    }
+    footer ul{
+        margin: 9px 100px 9px 100px;
+    }
+    footer hr{
+        margin: 9px 100px 9px 100px;
+    }
+    .endFooter{
+        padding-left: 100px;
+    }
+}
+
+
+@media screen and (max-width: 730px){
+    footer{
+        width: 900px;
+    }
+    footer ul{
+        margin: 9px 150px 9px 200px;
+    }
+    footer hr{
+        margin: 9px 150px 9px 200px;
+    }
+    .endFooter{
+        padding-left: 200px;
+    }
+    .container{
+        padding-left: 100px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    footer{
+        width: 900px;
+    }
+    footer ul{
+        margin: 9px 50px 9px 270px
+    }
+    footer hr{
+        margin: 9px 50px 9px 270px;
+    }
+    .endFooter{
+        padding-left: 270px;
+    }
+    .container{
+        padding-left: 250px;
+    }
+}
+
+
