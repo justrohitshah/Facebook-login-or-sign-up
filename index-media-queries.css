@@ -30,12 +30,52 @@ footer hr{
 .endFooter{
     margin-left: 250px;
 }
-
-
-.container{
+.left{
     margin-left: 150px;
 }
 
 
 }
 
+@media screen and (max-width : 1000px){
+    .container{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .left{
+        padding-left: 40px;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .right{
+        margin-left: 140px;
+    }
+    
+    .right form{
+        width: 600px;
+        height: 520px;
+    }
+    
+    form input{
+        width: 550;
+        padding: 25px;
+        font-size: 27px;
+    }
+    .login{
+        width: 550px;
+        padding: 25px;
+        font-size: 30px;
+    }
+    .forget{
+        font-size: 20px;
+    }
+    .signup{
+        width: 300px;
+        padding: 25px;
+        font-size: 26px;
+    }
+    .create{
+        font-size: 22px;
+        width: 500px;
+    }
+}
