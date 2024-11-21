@@ -112,20 +112,21 @@
                 <div class="person">
                     <div>
                         <label for="female">Female</label>
-                        <input type="radio">
+                        <input id="female" type="radio" name="person" value="female">
                     </div>
                     <div>
                         <label for="male">Male</label>
-                        <input type="radio">
+                        <input id="male" type="radio" name="person" value="male">
                     </div>
                     <div>
-                        <label for="custom">custom</label>
-                        <input type="radio"></div>
+                        <label for="custom">Custom</label>
+                        <input id="custom" type="radio" name="person" value="custom">
                     </div>
+                </div>
             </div>
             <div class="inputMP">
-                <input type="email" placeholder="Moible Number or email address">
-                <input type="password" placeholder="New password">
+                <input type="email" placeholder="Moible Number or email address" required>
+                <input type="password" placeholder="New password" required>
             </div>
             <div class="content">
                 <p>People who use our service may have uploaded your contact information to Facebook.<span><a href="https://www.facebook.com/help/637205020878504">Learn more</a></span></p>
