@@ -70,33 +70,5 @@ footer hr{
         width: 850px;
         padding-left: 50px;
     }
-    form{
-        width: 590px;
-        height: 540px;
-    }
-    form input{
-        width: 530px;
-        font-size: 25px;
-        padding: 25px;
-    }
-
-    .login{
-        font-size: 30px;
-        padding: 25px;
-        width: 530px;
-    }
-    .forget{
-        font-size: 20px;
-        padding-top: 15px;
-    }
-    .signup{
-        width:300px;
-        padding: 25px;
-        font-size: 25px;
-    }
-    .create{
-        font-size: 23px;
-        padding-top: 60px;
-
-    }
+    
 }
