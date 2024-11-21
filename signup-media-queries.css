@@ -28,8 +28,6 @@ footer hr{
 
 
 
-
-
 @media screen and (max-width: 1200px){
     footer ul{
         padding: 9px 50px 9px 150px;
@@ -50,13 +48,12 @@ footer hr{
 
 @media screen and (max-width: 930px){
     footer ul{
-        padding: 9px 50px 9px 250px;
-        margin-left: 250px;
+        padding: 9px 50px 9px 330px;
     }
 
 
 .endFooter{
-    padding-left: 250px;
+    padding-left: 230px;
 }
 
 
@@ -68,15 +65,17 @@ footer hr{
 }
 
 
-@media screen and (max-width: 550px){
-    footer ul{
-        padding: 9px 50px 9px 250px;
-        margin-left: 350px;
+@media screen and (max-width: 455px){
+    .container{
+        height: 1500px;
     }
+footer ul{
+    padding: 9px 50px 9px 500px;
+}
 
 
 .endFooter{
-    margin-left: 350px;
+    padding-left: 250px;
 }
 
 .container{
