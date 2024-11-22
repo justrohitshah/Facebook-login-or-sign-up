@@ -94,6 +94,7 @@ footer ul{
     padding-top: 300px;
     width: 16%;
 }
+}
 
 
 @media screen and (max-width: 450px){
@@ -111,6 +112,5 @@ footer ul{
 .container{
     padding-left: 400px;
 }
-
 
 }
