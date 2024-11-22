@@ -66,8 +66,7 @@ body{
   }
   
 .meta{
-    width: 100%;
-    text-align: center;
+    text-align: right;
     padding-right: 50px;
     padding-bottom: 50px;
 }
