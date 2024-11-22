@@ -74,6 +74,9 @@ footer hr{
     .left .meta_img2{
         display: none;
     }
+    .meta{
+        text-align: right;
+    }
 }
 
 @media screen and (min-width: 455px) {
