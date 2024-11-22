@@ -150,7 +150,7 @@ form input{
 }
 .meta_img{
     animation: moveV 3s linear infinite;
-    width: 7%;
+    width: 6%;
 }
 @keyframes moveV {
     0% {

@@ -46,9 +46,6 @@ footer hr{
 }
 
 
-
-
-
 @media screen and (max-width : 455px){
     .container{
         flex-direction: column;
@@ -74,7 +71,6 @@ footer hr{
     .left .meta_img2{
         display: none;
     }
-
 }
 
 @media screen and (min-width: 455px) {
