@@ -144,6 +144,25 @@ form input{
 .create :hover{
     text-decoration: underline;
 }
+.meta{
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+.meta_img{
+    animation: moveV 3s linear infinite;
+    width: 7%;
+}
+@keyframes moveV {
+    0% {
+      transform: translateY(0); /* Starting position */
+    }
+    50% {
+      transform: translateY(50px); /* Move 50px down */
+    }
+    100% {
+      transform: translateY(0); /* Return to the starting position */
+    }
+  }
 
 
 footer{
@@ -262,7 +281,7 @@ footer ul li a:hover{
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
     footer{
         width: 900px;
     }
@@ -277,6 +296,16 @@ footer ul li a:hover{
     }
     .container{
         padding-left: 250px;
+    }
+
+    .meta{
+        width: 900px;
+        text-align: right;
+        padding-right: 30px;
+        padding-top: 300px;
+    }
+    .meta_img{
+        width: 12%;
     }
 }
 

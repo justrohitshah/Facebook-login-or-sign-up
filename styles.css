@@ -45,12 +45,51 @@ body{
     width: 540px;
     font-family: "Roboto Condensed", sans-serif;
 }
+.left .meta2{
+    position: fixed;
+    margin-top: 450px;
+}
+.left .meta_img2{
+    animation: moveV 3s linear infinite;
+}
+
+@keyframes moveV {
+    0% {
+      transform: translateY(0); /* Starting position */
+    }
+    50% {
+      transform: translateY(50px); /* Move 50px down */
+    }
+    100% {
+      transform: translateY(0); /* Return to the starting position */
+    }
+  }
+  
+.meta{
+    width: 100%;
+    text-align: start;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.meta_img{
+    animation: moveV 3s linear infinite;
+    width: 10%;
+}
+@keyframes moveV {
+    0% {
+      transform: translateY(0); /* Starting position */
+    }
+    50% {
+      transform: translateY(50px); /* Move 50px down */
+    }
+    100% {
+      transform: translateY(0); /* Return to the starting position */
+    }
+  }
 
 .right{
     width: 400px;
-    margin-left: px;
     margin-bottom: 100px;
-    padding-right: 0px;
 }
 
 form{
@@ -155,6 +194,7 @@ form input{
 .create span:hover{
     text-decoration: underline;
 }
+
 
 footer{
     background-color: #ffffff;

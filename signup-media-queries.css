@@ -67,7 +67,7 @@ footer hr{
 
 @media screen and (max-width: 455px){
     .container{
-        height: 1500px;
+        height: 1750px;
     }
 footer ul{
     padding: 9px 50px 9px 500px;
@@ -82,7 +82,17 @@ footer ul{
     padding-left: 270px;
 }
 
+.topC{
+    padding-bottom: 100px;
+}
 
+
+.meta{
+    text-align: right;
+}
+.meta_img{
+    padding-top: 300px;
+    width: 16%;
 }
 
 
