@@ -76,7 +76,7 @@ footer hr{
     }
 }
 
-@media screen and (min-width: 455px) {
+@media screen and (min-width: 456px) {
     .meta_img{
       display: none;
     }
